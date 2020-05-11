@@ -1,0 +1,50 @@
+body {
+    font-family: "Calibri";
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: white;
+    color: white;
+    font-size: medium;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 4px;
+    background: rgba(155, 155, 155, 0.5);
+
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+
+    background-image: url("tab1.png");
+}
+
+
+
+/* Style the tab content */
+div.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+
+}
+
+div.tabcontent img
+{
+    display:block;
+    width:100%;
+    height:auto;
+}
